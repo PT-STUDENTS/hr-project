@@ -2,6 +2,8 @@ import React, { useState } from "react";
 import registrationimg from "../src/assets/registration.jpg";
 
 export default function Registration() {
+
+    
   // State hooks for form fields
   const [firstName, setFirstName] = useState("");
   const [lastName, setLastName] = useState("");
@@ -18,7 +20,7 @@ export default function Registration() {
   });
 
 
-  
+
   // Password validation function
   const validatePassword = (password) => {
     const hasUpperCase = /[A-Z]/.test(password);
