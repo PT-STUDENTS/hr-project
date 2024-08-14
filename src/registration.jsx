@@ -17,6 +17,8 @@ export default function Registration() {
     confirmPassword: "",
   });
 
+
+  
   // Password validation function
   const validatePassword = (password) => {
     const hasUpperCase = /[A-Z]/.test(password);
