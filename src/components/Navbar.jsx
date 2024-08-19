@@ -6,7 +6,7 @@ const Navbar = () => {
   return (
     <div className="navbar bg-base-100 fixed top-0 left-0 right-0 z-50 shadow-md">
       <div className="flex-1">
-        <Link to="/" className="btn btn-ghost text-xl">
+        <Link to="/user" className="btn btn-ghost text-xl">
           HRS
         </Link>
       </div>

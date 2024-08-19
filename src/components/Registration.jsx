@@ -84,7 +84,7 @@ const RegistrationForm = () => {
     backgroundSize: 'cover',
     backgroundPosition: 'center',
     backgroundRepeat: 'no-repeat',
-    height: '100vh',
+    height: 'auto',
     width: '100%'
     
   };
@@ -98,7 +98,7 @@ const RegistrationForm = () => {
     backgroundColor: 'rgba(0, 0, 0, 0.5)', // Adjust opacity here
   };
   return (
-    <div style={backgroundImageStyle} className="flex justify-center items-center h-screen ">
+    <div style={backgroundImageStyle} className="flex justify-center items-center h-96 ">
       <div className="w-full max-w-md p-8 mt-10 backdrop-blur-md  rounded-lg shadow-md">
         <h2 className="text-2xl font-bold mb-6 text-white">Registration Form</h2>
         <form onSubmit={handleSubmit}>
